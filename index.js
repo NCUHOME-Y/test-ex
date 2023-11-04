@@ -4,13 +4,16 @@ const aTags = document.querySelectorAll('#设置等级 a')
 const paths = document.querySelectorAll('#地区 path')
 const scoreText = document.querySelector('#分数')
 
-area.addEventListener('click', (event) => {
 
+document.addEventListener('DOMContentLoaded', function () {
+    area.addEventListener('click', (event) => {
+        if (setGrade.style.display == '' || setGrade.style.display == 'none') {
+            setGrade.style.display = 'block'
+        }
+        
+    })
+    
 })
-
-aTags.forEach(
-
-)
 
 const applyData = () => {
 

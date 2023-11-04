@@ -171,52 +171,51 @@
       <path fill="#88AEFF" d="M983 650h120v50H983Z" />
       <path fill="#FFF" d="M983 700h120v50H983Z" />
       <path class="边框" d="M983 448h120v304H983Z" />
-      <text x="1000" y="484" data-i18n="svg.level_5"></text>
-      <text x="1000" y="535" data-i18n="svg.level_4"></text>
-      <text x="1000" y="585" data-i18n="svg.level_3"></text>
-      <text x="1000" y="635" data-i18n="svg.level_2"></text>
-      <text x="1000" y="685" data-i18n="svg.level_1"></text>
-      <text x="998" y="735" data-i18n="svg.level_0"></text>
+      <text x="1000" y="484" data-i18n="svg.level_5">居住5</text>
+      <text x="1000" y="535" data-i18n="svg.level_4">住宿4</text>
+      <text x="1000" y="585" data-i18n="svg.level_3">游玩3</text>
+      <text x="1000" y="635" data-i18n="svg.level_2">中转2</text>
+      <text x="1000" y="685" data-i18n="svg.level_1">路过1</text>
+      <text x="998" y="735" data-i18n="svg.level_0">没去过</text>
     </g>
   </svg>
 
   <div id="设置等级">
-    <h2 data-i18n="areaOpi.title"></h2>
-    <a data-level="5" data-i18n="areaOpi.data_level_5"></a>
-    <a data-level="4" data-i18n="areaOpi.data_level_4"></a>
-    <a data-level="3" data-i18n="areaOpi.data_level_3"></a>
-    <a data-level="2" data-i18n="areaOpi.data_level_2"></a>
-    <a data-level="1" data-i18n="areaOpi.data_level_1"></a>
+    <h2 data-i18n="areaOpi.title">地区</h2>
+    <a data-level="5" data-i18n="areaOpi.data_level_5">居住过</a>
+    <a data-level="4" data-i18n="areaOpi.data_level_4">住宿过</a>
+    <a data-level="3" data-i18n="areaOpi.data_level_3">游玩过</a>
+    <a data-level="2" data-i18n="areaOpi.data_level_2">中转过</a>
+    <a data-level="1" data-i18n="areaOpi.data_level_1">路过</a>
     <!-- <a data-level="0" alt>想要去</a> -->
     <a data-level="0" data-i18n="areaOpi.data_level_0"></a>
   </div>
 
   <!-- 弹窗 -->
-  <form id="outputModal">
-    <h2 data-i18n="imgModal.title"></h2>
+  <form id="outputModal" style="display: none;">
+    <h2 data-i18n="imgModal.title">生成图片</h2>
     <div>
-      <label for="imgWidth" data-i18n="imgModal.width"></label>
+      <label for="imgWidth" data-i18n="imgModal.width">宽度</label>
       <input type="number" id="imgWidth" value="1134">
     </div>
     <div>
-      <label for="imgHeight" data-i18n="imgModal.height"></label>
+      <label for="imgHeight" data-i18n="imgModal.height">高度</label>
       <input type="number" id="imgHeight" value="976">
     </div>
     <div>
-      <label for="imgName" data-i18n="imgModal.name"></label>
+      <label for="imgName" data-i18n="imgModal.name">图片名称</label>
       <input type="text" id="imgName" value="map">
     </div>
     <div>
-      <button id="btnOutputImg" type="submit" data-i18n="imgModal.submit"></button>
-      <button id="btnCloseModal" type="button" data-i18n="imgModal.cancel"></button>
+      <button id="btnOutputImg" type="submit" data-i18n="imgModal.submit">确认生成图片</button>
+      <button id="btnCloseModal" type="button" data-i18n="imgModal.cancel">取消</button>
     </div>
 
   </form>
 
   <footer>
-    <button id="imgBtn" data-i18n="footer.img"></button>
-    <!--     
-    <button id="langBtn" data-i18n="footer.lang" type="menu"></button> -->
+    <button id="imgBtn" data-i18n="footer.img">生成图片</button>
+    <!-- <button id="langBtn" data-i18n="footer.lang" type="menu"></button> -->
     <select name="language" id="languageSwitcher"></select>
   </footer>
   <script src="./index.js"></script>

@@ -22,3 +22,17 @@ const svgToImg = (width, height, imgName) => {
     a.click()
   }
 }
+
+document.getElementById('imgBtn').addEventListener('click', () => {
+  let outputModal = document.getElementById('outputModal')
+  if (outputModal.style.display == 'none') {
+    outputModal.style.display = 'flex'
+  }
+})
+
+document.getElementById('btnCloseModal').addEventListener('click', () => {
+  let outputModal = document.getElementById('outputModal')
+  if (outputModal.style.display == 'flex') {
+    outputModal.style.display = 'none'
+  }
+})
