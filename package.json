@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "i18next": "^23.7.3",
+    "i18next-browser-languagedetector": "^7.2.0",
+    "i18next-http-backend": "^2.4.1",
+    "jquery-i18next": "^1.2.1"
+  },
+  "name": "test-ex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Gayloc/test-ex.git",
+  "author": "Gayloc <gu18647403665@outlook.com>",
+  "license": "MIT"
+}
