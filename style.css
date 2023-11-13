@@ -146,14 +146,6 @@ select {
   margin: 5px;
 }
 
-select:hover {
-  background-color: gray;
-}
-
-select:focus {
-  background-color: gray;
-}
-
 button {
   background-color: white;
   border: 0;

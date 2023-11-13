@@ -5,6 +5,7 @@ const jqueryI18next = window.jqueryI18next
 const i18nextHttpBackend=window.i18nextHttpBackend
 const languageSwitcher=document.getElementById("languageSwitcher")
 
+
 languageSwitcher.addEventListener('change',(event)=>{i18next.changeLanguage(event.target.value).then(()=>{
   $('body').localize({score:score});
 })})

@@ -42,6 +42,11 @@ jquery-i18next@^1.2.1:
   resolved "https://registry.yarnpkg.com/jquery-i18next/-/jquery-i18next-1.2.1.tgz#3e4ac5e46632fac21640529f1aa7b68e54f227e8"
   integrity sha512-UNcw3rgxoKjGEg4w23FEn2h3OlPJU7rPzsgDuXDBZktIzeiVbJohs9Cv9hj8oP8KNfBRKOoErL/OVxg2FaAR4g==
 
+jquery@^3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.7.1.tgz#083ef98927c9a6a74d05a6af02806566d16274de"
+  integrity sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==
+
 node-fetch@^2.6.12:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.7.0.tgz#d0f0fa6e3e2dc1d27efcd8ad99d550bda94d187d"
