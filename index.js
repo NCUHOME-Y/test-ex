@@ -53,7 +53,7 @@ document.getElementById("outputModal").addEventListener("submit",() => {
     width=document.getElementById("imgWidth").value
     height=document.getElementById("imgHeight").value
     imgName=document.getElementById("imgName").value
-    if(String(width).match("^[1-9][0-9]{1,3}$")){
+    if(String(width).match("^[1-9][0-9]{1,3}$")&&String(height).match("^[1-9][0-9]{1,3}$")){
         svgToImg(width, height,imgName)
     } else {
         alert("请输入10~9999的数值")
