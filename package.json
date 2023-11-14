@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "i18next": "^23.7.3"
+  },
+  "name": "test-ex-main",
+  "description": "2023NCUHOME 新生最终考核项目",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

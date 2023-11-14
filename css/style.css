@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "字体";
+  src: url("../font/字体.woff");
+}
+
+body {
+  margin: 0;
+}
+/* svg相关代码 */
+svg {
+  height: 100vh;
+}
+svg #地名 {
+  pointer-events: none;
+}
+
+a text {
+  font-family: sans-serif !important;
+}
+
+#设置等级 {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background: #fff;
+  width: 150px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 3px 6px 0 rgba(0, 0, 0, 0.1);
+  border: 4px solid #000;
+  text-align: center;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  overflow: visible;
+}
+#设置等级 h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 40px;
+  cursor: default;
+}
+#设置等级 a {
+  line-height: 24px;
+  font-size: 18px;
+  cursor: pointer;
+}
+#设置等级 h2,
+#设置等级 a {
+  display: block;
+  padding: 4px 10px;
+}
+#设置等级 h2[data-level="5"],
+#设置等级 a[data-level="5"] {
+  background: #ff7e7e;
+}
+#设置等级 h2[data-level="4"],
+#设置等级 a[data-level="4"] {
+  background: #ffb57e;
+}
+#设置等级 h2[data-level="3"],
+#设置等级 a[data-level="3"] {
+  background: #ffe57e;
+}
+#设置等级 h2[data-level="2"],
+#设置等级 a[data-level="2"] {
+  background: #a8ffbe;
+}
+#设置等级 h2[data-level="1"],
+#设置等级 a[data-level="1"] {
+  background: #88aeff;
+}
+#设置等级 h2[data-level="0"][alt],
+#设置等级 a[data-level="0"][alt] {
+  background: #d6beff;
+}
+
+#outputModal {
+}
+
+#LocName {
+  margin: 0 0 2px 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 2vh;
+  right: 2vw;
+}
+
+.closeButt {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: gray;
+  font-size: 15px !important;
+  text-decoration: none;
+}
+
+#leftArrow {
+  position: absolute;
+  left: -39px;
+  top: 0px;
+  z-index: -1;
+}
+
+#真的分数 {
+  font-size: 60px;
+}
+
+#outputModal {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  display: none;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+}
+
+#outputModal div {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#outputModal div table {
+  background-color: white;
+  border-radius: 18px;
+  padding: 0 18px 18px 18px;
+}
+
+input {
+  outline: none;
+  background: transparent;
+  border: none;
+  outline: medium;
+  margin: 8px;
+  padding: 6px;
+  border-bottom: 1.2px black dashed;
+}
+
+input:focus {
+  outline: none;
+  background-color: transparent;
+}
+::selection {
+  background-color: rgb(255, 158, 47);
+  color: white;
+}
+::-moz-selection {
+  background: rgb(241, 241, 241);
+}
+
+button {
+  padding: 10px;
+  background: linear-gradient(135deg, #8e9eab, #eef2f3);
+  outline: none;
+  border: none;
+  transition-duration: 0.3s;
+  transition-property: all;
+  border-radius: 10px;
+  opacity: 0.7;
+
+}
+
+button:hover {
+  /* padding:13px; */
+  border-radius: 20px;
+  opacity: 1;
+
+}
+
+select {
+  padding: 11px;
+  background: linear-gradient(135deg, #8e9eab, #eef2f3);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  opacity: 0.7;
+}
+
+select:hover {
+  border-radius: 20px;
+  opacity: 1;
+}
