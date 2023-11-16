@@ -14,5 +14,6 @@
 ### 三.i18n
 
 ！[img]
-！[img]
+![image](https://github.com/NCUHOME-Y/test-ex/assets/146162650/9f51a235-1237-486b-9119-1db9ebd767b8)
+
 
