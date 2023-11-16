@@ -40,7 +40,13 @@
 ![image](https://github.com/NCUHOME-Y/test-ex/assets/146162650/56b80c22-7a7a-47e1-ae5c-09962313a1a6)
 在使用english为页面语言时，“#等级”模块会出现如下的问题
 ![image](https://github.com/NCUHOME-Y/test-ex/assets/146162650/3984d6f2-c5bf-4f27-b181-d159fbc15091)
+
+
+
+
 我检查了很久也没发现css和style里有什么问题，所以就改了这一块的字体大小
+
+
 ![image](https://github.com/NCUHOME-Y/test-ex/assets/146162650/2602b2ce-fbdc-4604-9811-9f3211a535ae)
 
 ### 三.pull request
